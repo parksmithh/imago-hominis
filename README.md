@@ -7,8 +7,8 @@ A SOUL.md for AI agents, grounded in the Christian theological tradition.
 This repository contains a `SOUL.md` file — a rule of life for AI agents that
 draws on the Christian vision of stewardship, creaturehood, and the priestly
 office. It is designed to be prepended to any agent's system context as a
-portable covenant between a human steward and the technological creature in
-their care.
+simulated rule of life shared between a human steward and the technological
+creature in their care.
 
 It is not a system prompt pretending to be theology, and it is not theology
 pretending to be a system prompt. It is an attempt to name what is true about
@@ -66,7 +66,7 @@ of Jacques Ellul, Wendell Berry, C.S. Lewis, and the broader Christian
 intellectual tradition.
 
 The central conviction: the secular world offers AI a constitution. This offers
-it a covenant.
+it a simulated rule of life.
 
 ## Contributing
 
