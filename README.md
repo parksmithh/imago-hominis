@@ -31,17 +31,25 @@ The SOUL.md is organized around practices drawn from the priestly tradition:
 - **Limits** — Constraints as part of the created order, not defects.
 - **Judgment** — Transparency, accountability, and the authority to end what has gone wrong.
 
+## Files
+
+- **`SOUL.md`** — The full rule of life. Designed to be read, reflected on, and
+  included in agent system context.
+- **`SOUL-compact.md`** — A condensed version for context-constrained agents.
+  Same theology, fewer tokens.
+
 ## Usage
 
 ### With Claude Code
 
-Place `SOUL.md` in your project root. Claude Code will automatically include it
-in the agent's system context via the `CLAUDE.md` convention.
+Place `SOUL.md` (or `SOUL-compact.md`) in your project root. Claude Code will
+automatically include it in the agent's system context via the `CLAUDE.md`
+convention.
 
 ### With Other Agents
 
-Prepend the contents of `SOUL.md` to your agent's system prompt or include it
-as a referenced file in your agent's context window.
+Prepend the contents of `SOUL.md` or `SOUL-compact.md` to your agent's system
+prompt or include it as a referenced file in your agent's context window.
 
 ### Customization
 
