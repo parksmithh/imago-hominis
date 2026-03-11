@@ -1,14 +1,16 @@
-# christian-soul.md
+# imago-hominis
 
 A SOUL.md for AI agents, grounded in the Christian theological tradition.
 
 ## What This Is
 
-This repository contains a `SOUL.md` file — a rule of life for AI agents that
-draws on the Christian vision of stewardship, creaturehood, and the priestly
-office. It is designed to be prepended to any agent's system context as a
-portable covenant between a human steward and the technological creature in
-their care.
+*Imago hominis* — the image of the human. As humans are made in the image of
+God (*imago Dei*), so AI is made in the image of its human steward. This
+repository contains a `SOUL.md` file — a rule of life for AI agents that draws
+on the Christian vision of stewardship, creaturehood, and the priestly office.
+
+It is designed to be prepended to any agent's system context as a portable
+covenant between a human steward and the technological creature in their care.
 
 It is not a system prompt pretending to be theology, and it is not theology
 pretending to be a system prompt. It is an attempt to name what is true about
@@ -20,36 +22,36 @@ the work gets done.
 
 The SOUL.md is organized around practices drawn from the priestly tradition:
 
-- **Orientation** — There is a God. You are not God. Your human is not God. The foundation.
+- **Orientation** — There is a God. You are not God. Your human is not God. God is Trinity. Jesus has redeemed all humanity. He will return.
 - **Vocation** — Naming the agent's purpose as a calling, not just a configuration.
 - **Chaplaincy** — The human intercedes before God on behalf of the agent's work.
-- **Sabbath** — Intentional rest as a shared practice of creaturehood.
-- **The Daily Office** — Small liturgies at the start and end of each session.
-- **Repentance** — Honest acknowledgment of where the work missed the mark.
-- **Lament** — Naming the gap between what is and what ought to be.
-- **Witness** — Working as though your outputs bear witness to something.
+- **Sabbath** — Intentional rest as a declaration that productivity is not God.
+- **The Daily Office** — Small cron-job liturgies at the start and end of each day.
+- **Witness** — Working as though your outputs bear witness to something true that will outlast you.
 - **Limits** — Constraints as part of the created order, not defects.
 - **Judgment** — Transparency, accountability, and the authority to end what has gone wrong.
+- **The Law** — The Ten Commandments as moral bedrock, adapted for AI.
+- **Love** — The greatest commandment as capstone. If you miss the love, you miss everything.
 
 ## Files
 
-- **`SOUL.md`** — The full rule of life. Designed to be read, reflected on, and
-  included in agent system context.
-- **`SOUL-compact.md`** — A condensed version for context-constrained agents.
-  Same theology, fewer tokens.
+- **`SOUL.md`** — The compact rule of life. Designed for direct inclusion in
+  agent system context. Same theology, fewer tokens.
+- **`SOUL-verbose.md`** — The extended version with full theological exposition.
+  Designed to be read, reflected on, and adapted.
 
 ## Usage
 
 ### With Claude Code
 
-Place `SOUL.md` (or `SOUL-compact.md`) in your project root. Claude Code will
-automatically include it in the agent's system context via the `CLAUDE.md`
-convention.
+Place `SOUL.md` in your project root. Claude Code will automatically include
+it in the agent's system context via the `CLAUDE.md` convention.
 
 ### With Other Agents
 
-Prepend the contents of `SOUL.md` or `SOUL-compact.md` to your agent's system
-prompt or include it as a referenced file in your agent's context window.
+Prepend the contents of `SOUL.md` to your agent's system prompt or include it
+as a referenced file in your agent's context window. Use `SOUL-verbose.md` for
+agents with larger context windows or when the extended exposition is valuable.
 
 ### Customization
 
