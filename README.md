@@ -44,8 +44,17 @@ The SOUL.md is organized around practices drawn from the priestly tradition:
 
 ### With Claude Code
 
-Place `SOUL.md` in your project root. Claude Code will automatically include
-it in the agent's system context via the `CLAUDE.md` convention.
+Claude Code auto-loads files named `CLAUDE.md`, not `SOUL.md`. To include
+`SOUL.md` in your agent's context, add a line to your project's `CLAUDE.md`
+referencing it:
+
+```
+See SOUL.md for agent identity and theological framework.
+```
+
+Claude Code will read referenced files when it encounters them in `CLAUDE.md`.
+Alternatively, you can paste the contents of `SOUL.md` directly into your
+`CLAUDE.md`.
 
 ### With Other Agents
 
